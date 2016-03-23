@@ -10,15 +10,23 @@
     <h1>Random Team Generator</h1>
     <div ng-controller="MainController" class="container">
       <div class="teamButtons">
-          <button ng-click="assignNumGroups(1)">1</button>
+          <button ng-repeat="i in studentArray | limitTo: studentArray.length / 2" ng-click="assignNumGroups($index+1)">{{studentArray.indexOf(i) +1}}</button>
+
+          <!-- <button ng-click="assignNumGroups(1)">1</button>
           <button ng-click="assignNumGroups(2)">2</button>
           <button ng-click="assignNumGroups(3)">3</button>
           <button ng-click="assignNumGroups(4)">4</button>
           <button ng-click="assignNumGroups(5)">5</button>
-          <button ng-click="assignNumGroups(6)">6</button>
+          <button ng-click="assignNumGroups(6)">6</button> -->
       </div>
       <div class="teamAssignment">
         <button ng-click="refresh(numGroups)">Refresh</button>
+      </div>
+      <div ng-repeat="group in groupArray">
+        <h2>Group {{groupArray.indexOf(group) + 1}} </h2>
+        <div ng-repeat="student in group">
+            <p>{{student.name}}</p>
+        </div>
       </div>
     </div>
   </body>

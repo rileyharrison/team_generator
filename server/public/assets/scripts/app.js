@@ -3,7 +3,14 @@ var studentArray;
 
 myApp.controller("MainController", ["$scope","$http", function($scope, $http){
   //refresh button get student data, shuffle, assign teams and display
-  $scope.groupArray = [];
+
+  $scope.appendButtons = function(){
+    $http.get("/kappaStudents").then(function(response){
+      $scope.studentArray = response.data.students;
+      //console.log("Inside Get Request: ", $scope.studentArray);
+    });
+  }
+
 
   $scope.assignNumGroups = function(number){
     $scope.numGroups = number;
@@ -23,18 +30,25 @@ myApp.controller("MainController", ["$scope","$http", function($scope, $http){
 
 
   $scope.refresh = function(){
-
+      $scope.groupArray = [];
+      $scope.getStudentData();
       // var allStudents = $scope.studentArray;
       $scope.studentArray = shuffleArray($scope.studentArray);
       // console.log('All Students array', allStudents);
 
+        for(var i = 0; i<$scope.numGroups; i++){
+            $scope.groupArray.push([]);
+        }
+
+
       for(var i = $scope.studentArray.length - 1; i >0; i--){
           var targetNum = i % $scope.numGroups;
           var student = $scope.studentArray.pop();
-          console.log("Student was popped: ", student)
           $scope.groupArray[targetNum].push(student);
+
         }
-        console.log("Group Array: ", $scope.groupArray);
+
+          console.log("Group Array: ", $scope.groupArray);
   };
 
 $scope.getStudentData();
