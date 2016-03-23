@@ -1,0 +1,83 @@
+{
+  "students": [
+    {
+      "name" : "Enrique Ortega",
+      "github": "https://github.com/enriqueortega",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAQNAAAAJDc0ZjBkM2QwLTk0ZDAtNDJlMS05YjAwLWU4NzI4ODNjOGQ4Yg.jpg"
+    },{
+      "name" : "Tracey Van Haaften",
+      "github": "https://github.com/traceylvh/",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAASQAAAAJDkxMGZmOTMzLTY5MjItNGIwOS05MDJlLTg2MDBkYjNhMjllMQ.jpg"
+    },{
+      "name" : "Carl Peaslee",
+      "github": "https://github.com/carlpeaslee",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAi5AAAAJDQwMDdhMzliLTU5OWMtNGYzZi1hMTExLWM4ZWRkODZhZDVlMw.jpg"
+    },{
+      "name" : "Joette Poehler",
+      "github": "https://github.com/jpoehler",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/4/005/055/07a/20d8a87.jpg"
+    },{
+      "name" : "Jeremy Hjelmeland",
+      "github": "https://github.com/himynameisjeremy",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrink_100_100/p/1/000/195/13e/0729e28.jpg"
+    },{
+      "name" : "Kenzie Bultema",
+      "github": "https://github.com/kenziebultema",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAaFAAAAJDgwOWJkZGRmLTBiYjgtNDM5MS1iMjA5LTc0OWNiNzQ5OTFkMQ.jpg"
+    },{
+      "name" : "Aaron McGrath",
+      "github": "https://github.com/aaronrmcgrath",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYdAAAAJDAwZTZjNjM4LWNjNTQtNDU2Yi04Y2EwLTgxOGE1ZWQwOGYzZg.jpg"
+    },{
+      "name" : "Evan Kimlinger",
+      "github": "https://github.com/ekimlinger",
+      "linkedIn": "https://media.licdn.com/media/AAEAAQAAAAAAAAb0AAAAJGU3YjI5NzAwLTk4MTEtNDdmMi1hYWUzLThhZTAxZmRlMmY2Zg.jpg"
+    },{
+      "name" : "Biz Cook",
+      "github": "https://github.com/bizcook",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/0a5/167/2b8b58f.jpg"
+    },{
+      "name" : "Brady Peterson",
+      "github": "https://github.com/bpeterson1663?tab=repositories",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/04f/281/2121481.jpg"
+    },{
+      "name" : "Roman Hiebert",
+      "github": "https://github.com/ipero",
+      "linkedIn": "https://media.licdn.com/media/AAEAAQAAAAAAAAWuAAAAJDRiODM3MmE3LWEyOTctNGJjMi1iM2Y5LWE3ZDE4MzJhZmIxNg.jpg"
+    },{
+      "name" : "Thomas Chester",
+      "github": "https://github.com/thomcchester",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAB3AAAAJGZmMDJkNjM2LThkZGItNDY2NS1hOGMyLTBkM2JiZjAyN2VkNg.jpg"
+    },{
+      "name" : "Miles Johnson",
+      "github": "https://github.com/milesjohnson777",
+      "linkedIn": "https://avatars3.githubusercontent.com/u/7476426?v=3&s=460"
+    },{
+      "name" : "Michelle Wang",
+      "github": "https://github.com/shell0720",
+      "linkedIn": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAPgAAAAJGM0ZDFkYWYzLTgxZDItNDAzYi05MzU5LTEyYjdlNzJhMDc0NA.jpg"
+    },{
+      "name" : "Neil Skupa",
+      "github": "https://github.com/ntcode",
+      "linkedIn": "https://media.licdn.com/media/AAEAAQAAAAAAAARbAAAAJDI4NDRmYjA1LTQ4YjEtNDQwMS04YWYyLWFhMWNmMGRhMGI2Zg.jpg"
+    },{
+      "name" : "Hank Andre",
+      "github": "https://github.com/hankandre",
+      "linkedIn": "https://media.licdn.com/media/AAEAAQAAAAAAAARkAAAAJDViNmI2OWQzLTlhZTgtNGVmOS05MmMzLWNiYWZjMzU2NGUyZg.jpg"
+    },{
+      "name" : "Mike Elliott",
+      "github": "https://github.com/melliott03",
+      "linkedIn": "https://z-1-scontent-lga3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-0/s526x395/10431528_648410991908310_2140545831705960914_n.jpg?oh=a55ad273cd0f68fa76519d81f494c613&oe=577D12C5"
+    },{
+      "name" : "Mark Rothermal",
+      "github": "https://github.com/Rothermal",
+      "linkedIn": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-1KekyJOQK8LeCSvuG5CWUCGlGMhm9WivDZpl4s8eaETHOj4D"
+    },{
+      "name" : "Matthew Keymer",
+      "github" : "https://github.com/increvateur",
+      "linkedIn" : "https://avatars2.githubusercontent.com/u/15474757?v=3&s=460"
+    },{
+      "name" : "Riley Harrison"
+    }
+  ]
+}
